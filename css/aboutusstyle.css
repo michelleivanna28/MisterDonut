@@ -1,0 +1,141 @@
+html {
+    width:100%;
+    background-color: #FEFAF1 !important;
+}
+
+body {
+    background-color: #FEFAF1 !important;
+}
+
+a img {
+    max-width: 90%;
+    padding-left: 3em;
+}
+
+.navbar-light {
+    background-color: #FEFAF1 !important;
+    padding: 2em 10em;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #302303;
+    font-family: 'Noto Serif TC';
+    font-weight: 500;
+    font-size: 22px;
+    padding: 2.3em 2em 0;
+}
+
+.img-fluid {
+    margin-top: 9em;
+}
+
+nav.text-center img {
+    max-width: 70%;
+    background-color: #FEFAF1 !important;
+    margin-top: 4em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 0;
+    margin-top: 6em;
+}
+  
+.footer-images {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #FEFAF1 !important;
+}
+  
+.footer-images img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+    z-index: 1;
+}
+  
+.footer-images img:first-child,
+  .footer-images img:last-child {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+  
+.logos {
+    position: absolute;
+    top: 40%;
+    left: 51%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+  
+a .logo-big {
+    margin-bottom: 2em;
+}
+  
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+  
+.social a:not(:last-child) {
+    margin-right: 10px;
+}
+
+footer a img {
+    padding: 0 1em;
+}
+
+@media screen and (max-width: 360px) {
+    a img {
+        max-width: 70%;
+        padding-left: 0;
+    }
+
+    a.navbar-brand {
+        padding: 0;
+    }
+    
+    .navbar-light {
+        padding: 0.5em;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 16px;
+        padding: 1em 2em 0;
+    }
+
+    button.navbar-toggler {
+        padding: 0.35rem 0.75rem;
+        margin: 1em 0em 0.6em 2em;
+    }
+
+    button.navbar-toggler:hover {
+        margin-right: 2em;
+    }
+
+    nav.text-center img {
+        max-width: 90%;
+    }
+
+    .footer-images img {
+        max-width: 120%;
+    }
+
+    .logos {
+        top: 40%;
+        left: 52%;
+    }
+}
